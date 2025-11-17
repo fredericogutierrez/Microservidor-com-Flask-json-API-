@@ -1,7 +1,6 @@
-from flask import Flask, request, jsonify  # Importações essenciais do Flask
+from flask import Flask, request, jsonify 
 import os  
 
-# Criação da aplicação Flask
 app = Flask(__name__)
 
 # Nome da pasta onde os arquivos .txt serão armazenados
@@ -92,3 +91,4 @@ def delete_file(filename):
 
 if __name__ == '__main__':
     app.run(debug=True)
+
